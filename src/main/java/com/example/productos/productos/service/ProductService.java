@@ -69,8 +69,9 @@ public class ProductService {
         Product savedProduct = productRepository.save(product);
         return productMapper.toDTO(savedProduct);
     }
-    public void deleteProduct(Long id){
+    public void deleteProduct(Long id) {
         productRepository.deleteById(id);
     }
+    nada;
 }
 
