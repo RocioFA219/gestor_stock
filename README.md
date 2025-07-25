@@ -1,5 +1,6 @@
 
 Este proyecto es una API REST desarrollada en **Spring Boot** que permite la gestión de productos dentro de un sistema de inventario. Proporciona operaciones CRUD completas, así como funcionalidades de búsqueda avanzada para facilitar el control de stock.
+Es un sistema de control de stock basado en movimientos, donde el stock de un producto se actualiza automáticamente según las operaciones que se realizan (entradas, salidas, ajustes, etc.). Todo queda registrado con fecha, cantidad y motivo.
 
 ## 🚀 Características principales
 
